@@ -128,9 +128,9 @@ const sendToken = (user, statusCode, res) => {
     });
 }
 
-// exports.privateRoute = (req, res, next) => {
-//     res.status(200).json({
-//         success: true,
-//         message: "Valid User"
-//     })
-// }
+exports.privateRoute = (req, res, next) => {
+    res.status(200).json({
+        success: true,
+        message: "Valid User"
+    })
+}
